@@ -93,7 +93,7 @@ digital-life-system/
 
 1. **克隆仓库 / Clone the repo**
    ```bash
-   git clone https://github.com/shahai/digital-life-system.git
+   git clone https://github.com/flyshahai/digital-life-system.git
    cd digital-life-system
    ```
 

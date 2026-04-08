@@ -51,6 +51,8 @@ This is a universal personal memory and cognitive management system that works w
 
 ```
 digital-life-system/
+├── AGENT_BOOT.md              ← AI加载指南（中文）
+├── AGENT_BOOT_EN.md           ← AI loading guide (English)
 ├── memory/                    ← 记忆系统核心
 │   ├── L0-L5/               ← 6层核心记忆（必装）
 │   ├── L-SUCCESS/           ← 成功引擎（推荐）
@@ -101,20 +103,20 @@ digital-life-system/
    - 🔵 深度模块：按需添加
 
 3. **将 memory/ 目录放入你的 AI 工具工作区 / Integrate with your AI**
-   - WorkBuddy：放入 `.workbuddy/memory/`
    - Cursor：放入项目 `.cursor/memory/`
    - Claude.ai / ChatGPT：将 `memory/` 路径告知 AI
 
 4. **让 AI 读取 SYSTEM.md / Let AI read SYSTEM.md**
    > 将 `SYSTEM.md` 的内容作为 system prompt 或告诉 AI："请阅读 `memory/SYSTEM.md`，这是我的个人认知操作系统。"
 
-### 方式二：WorkBuddy 一键安装 / WorkBuddy One-Click Install
+### 方式二：AI 一键加载 / AI One-Click Load
 
-> 适用于 WorkBuddy 用户
+> 适用于所有 AI 工具。告诉 AI 阅读 `AGENT_BOOT.md`，AI 将自动按指引加载系统。
 
-1. 在 WorkBuddy 中导入 Skill
-2. 系统自动初始化 `memory/` 目录
-3. 开始填写你的内容
+1. **告诉 AI：** "请阅读项目根目录下的 `AGENT_BOOT.md`"
+2. AI 读取后，将自动按步骤加载并初始化你的记忆系统
+
+> 详细流程见 [`AGENT_BOOT.md`](./AGENT_BOOT.md)
 
 ---
 

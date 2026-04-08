@@ -43,6 +43,8 @@ A universal personal memory and cognitive management system that works with any 
 
 ```
 digital-life-system/
+├── AGENT_BOOT.md              ← AI loading guide (Chinese)
+├── AGENT_BOOT_EN.md           ← AI loading guide (English)
 ├── memory/                    ← Core memory system
 │   ├── L0-L5/               ← 6-layer core memory (required)
 │   ├── L-SUCCESS/           ← Success engine (recommended)
@@ -93,18 +95,20 @@ digital-life-system/
    - 🔵 Advanced: Add any of the advanced modules as needed
 
 3. **Integrate with your AI**
-   - WorkBuddy: Place in `.workbuddy/memory/`
    - Cursor: Place in `.cursor/memory/`
    - Claude.ai / ChatGPT: Tell AI to read `memory/SYSTEM.md`
 
 4. **Introduce yourself to the AI**
    > Share `SYSTEM.md` as your system prompt or tell the AI: "Please read `memory/SYSTEM.md` — this is my personal cognitive operating system."
 
-### WorkBuddy One-Click Install
+### Method 2: AI One-Click Load
 
-1. Import the Skill into WorkBuddy
-2. System auto-initializes the `memory/` directory
-3. Start filling in your content
+> Works with any AI tool. Tell AI to read `AGENT_BOOT.md` and it will auto-load the system.
+
+1. **Tell the AI:** "Please read `AGENT_BOOT.md` in the project root"
+2. AI will automatically follow the loading steps and initialize your memory system
+
+> See [`AGENT_BOOT_EN.md`](./AGENT_BOOT_EN.md) for details
 
 ---
 
